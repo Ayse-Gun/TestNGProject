@@ -13,5 +13,6 @@ public class TC01_SearchBoxTest {
         Page page = new Page();
         page.searchBox.click();
         Driver.closeDriver();
+        // Amaz9n sayfasina gidilip searc box test edildi
     }
 }
