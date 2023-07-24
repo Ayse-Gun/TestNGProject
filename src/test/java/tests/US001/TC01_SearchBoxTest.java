@@ -12,5 +12,6 @@ public class TC01_SearchBoxTest {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         Page page = new Page();
         page.searchBox.click();
+        Driver.closeDriver();
     }
 }
